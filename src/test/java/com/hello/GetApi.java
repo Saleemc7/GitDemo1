@@ -18,6 +18,7 @@ public class GetApi {
 		.statusCode(200)
 		.body("page", equalTo(2))
 		.log().all();
+		System.out.println("hello");
 	}
 
 }
